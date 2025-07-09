@@ -1,103 +1,94 @@
-import Image from "next/image";
+
+import Link from 'next/link';
+import HeroSection from '@/components/HeroSection';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="bg-white text-[#264653]">
+      <HeroSection />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* About Section */}
+      <section className="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10 border-b border-gray-300">
+        <div className="md:w-1/2 w-full mb-8 md:mb-0">
+          <h2 className="text-3xl font-bold text-[#4A6C6F] mb-4">Tentang Desa Bululawang</h2>
+          <p className="text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque. Suspendisse potenti. Mauris at erat nec neque fermentum dapibus.</p>
+          <p className="text-lg">Curabitur euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque. Suspendisse potenti. Mauris at erat nec neque fermentum dapibus.</p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <div className="md:w-1/2 w-full flex justify-center">
+          <Image src="/images/Peta-Bululawang.svg" alt="Peta Desa Bululawang" width={400} height={400} className="w-full h-auto max-w-md" />
+        </div>
+      </section>
+
+      {/* Sejarah Section */}
+      <section className="max-w-4xl mx-auto px-4 py-16 border-b border-gray-300">
+        <h2 className="text-3xl font-bold text-[#4A6C6F] mb-4 text-center">Sejarah Desa Bululawang</h2>
+        <p className="text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque. Suspendisse potenti. Mauris at erat nec neque fermentum dapibus. Curabitur euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="max-w-4xl mx-auto px-4 py-16 border-b border-gray-300">
+        <h2 className="text-3xl font-bold text-[#4A6C6F] mb-10 text-center">Testimoni</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="bg-[#EADFC9] rounded-xl p-6 shadow text-[#264653]">
+            <p className="mb-4">"Desa Bululawang sangat indah dan penduduknya ramah. Saya sangat menikmati wisata alamnya!"</p>
+            <span className="font-bold">- Andi, Wisatawan</span>
+          </div>
+          <div className="bg-[#EADFC9] rounded-xl p-6 shadow text-[#264653]">
+            <p className="mb-4">"Produk UMKM Bululawang sangat unik dan berkualitas. Saya pasti akan kembali lagi!"</p>
+            <span className="font-bold">- Sari, Pengunjung</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Wisata Section */}
+      <section className="max-w-6xl mx-auto px-4 py-20 border-b border-gray-300">
+        <div className="relative bg-white rounded-2xl shadow-xl flex flex-col md:flex-row overflow-hidden min-h-[340px]">
+          <div className="relative md:w-2/3 w-full min-h-[340px]">
+            <Image src="/images/wisata/pantai-pasur.jpg" alt="Wisata Alam" fill className="object-cover" />
+          </div>
+          <div className="relative md:-ml-20 md:w-1/2 w-full z-10 flex flex-col justify-center bg-[#4A6C6F] p-10 rounded-2xl text-white shadow-xl md:my-10 md:mr-10">
+            <h3 className="text-3xl font-bold mb-4">Wisata Alam</h3>
+            <p className="text-base mb-6">Jelajahi keindahan alam Desa Bululawang yang mempesona.</p>
+            <Link href="/wisata" className="inline-block mt-auto">
+              <span className="px-5 py-2 rounded bg-gray-200 text-[#264653] font-semibold">Jelajahi Sekarang</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Tradisi Section */}
+      <section className="max-w-6xl mx-auto px-4 py-20 border-b border-gray-300">
+        <div className="relative bg-white rounded-2xl shadow-xl flex flex-col md:flex-row overflow-hidden min-h-[340px]">
+          <div className="relative md:w-2/3 w-full min-h-[340px]">
+            <Image src="/images/tradisi.jpg" alt="Tradisi" fill className="object-cover" />
+          </div>
+          <div className="relative md:-ml-20 md:w-1/2 w-full z-10 flex flex-col justify-center bg-[#F4A261] p-10 rounded-2xl text-white shadow-xl md:my-10 md:mr-10">
+            <h3 className="text-3xl font-bold mb-4">Tradisi</h3>
+            <p className="text-base mb-6">Pelajari tradisi dan budaya khas Desa Bululawang yang kaya dan menarik.</p>
+            <Link href="/tradisi" className="inline-block mt-auto">
+              <span className="px-5 py-2 rounded bg-gray-200 text-[#264653] font-semibold">Lihat Tradisi</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* UMKM Section */}
+      <section className="max-w-6xl mx-auto px-4 py-20 border-b border-gray-300">
+        <div className="relative bg-white rounded-2xl shadow-xl flex flex-col md:flex-row overflow-hidden min-h-[340px]">
+          <div className="relative md:w-2/3 w-full min-h-[340px]">
+            <Image src="/images/umkm/pottery.jpg" alt="UMKM Lokal" fill className="object-cover" />
+          </div>
+          <div className="relative md:-ml-20 md:w-1/2 w-full z-10 flex flex-col justify-center bg-[#E76F51] p-10 rounded-2xl text-white shadow-xl md:my-10 md:mr-10">
+            <h3 className="text-3xl font-bold mb-4">UMKM Lokal</h3>
+            <p className="text-base mb-6">Dukung produk lokal dan temukan kerajinan tangan dix hunik.</p>
+            <Link href="/umkm" className="inline-block mt-auto">
+              <span className="px-5 py-2 rounded bg-gray-200 text-[#264653] font-semibold">Lihat Kerajinan</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
+
