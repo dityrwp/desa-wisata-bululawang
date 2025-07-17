@@ -85,20 +85,13 @@ export default function Home() {
         </section>
 
         {/* UMKM Section */}
-        <section className="max-w-6xl mx-auto px-4 py-20 border-b border-gray-300">
-          <div className="relative bg-white rounded-2xl shadow-xl flex flex-col md:flex-row overflow-hidden min-h-[340px]">
-            <div className="relative md:w-2/3 w-full min-h-[340px] order-2 md:order-1 flex flex-col justify-center">
-              <div className="relative w-full h-full min-h-[340px]">
-                <Image src="/images/app/umkm/pottery.jpg" alt="UMKM Lokal" fill className="object-cover rounded-2xl" />
-              </div>
-            </div>
-            <div className="relative md:-ml-20 md:w-1/2 w-full z-10 flex flex-col justify-center bg-[#E76F51] p-10 rounded-2xl text-white shadow-xl md:my-10 md:mr-10 order-1 md:order-2">
-              <h3 className="text-3xl font-bold mb-4">UMKM Lokal</h3>
-              <p className="text-base mb-6">Dukung produk lokal dan temukan kerajinan tangan dix hunik.</p>
-              <Link href="/umkm" className="inline-block mt-auto">
-                <span className="px-5 py-2 rounded bg-gray-200 text-[#264653] font-semibold">Lihat Kerajinan</span>
-              </Link>
-            </div>
+        <section className="max-w-4xl mx-auto px-4 py-20 border-b border-gray-300 flex justify-center">
+          <div className="w-full bg-[#EADFC9] rounded-2xl shadow-xl flex flex-col items-center p-10 text-[#264653]">
+            <h3 className="text-3xl font-bold mb-4">UMKM Lokal</h3>
+            <p className="text-base mb-6 text-center">Dukung produk lokal dan temukan kerajinan tangan yang unik dari Desa Bululawang. Jelajahi berbagai UMKM yang menjadi kebanggaan masyarakat kami dan temukan inspirasi dari kreativitas lokal.</p>
+            <Link href="/umkm" className="inline-block mt-auto">
+              <span className="px-5 py-2 rounded bg-[#4A6C6F] text-white font-semibold">Lihat Kerajinan</span>
+            </Link>
           </div>
         </section>
       </main>

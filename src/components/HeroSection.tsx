@@ -22,10 +22,10 @@ export default function HeroSection() {
       </motion.div>
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg mb-4 font-serif">
-          Selamat Datang di Desa Bululawang
+          Desa Bululawang
         </h1>
         <p className="mt-2 text-lg md:text-2xl text-white drop-shadow">
-          idk
+          Kecamatan Bakung, Kabupaten Blitar, Jawa Timur
         </p>
       </div>
     </section>

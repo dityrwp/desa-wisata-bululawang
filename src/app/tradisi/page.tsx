@@ -53,6 +53,12 @@ export default function TradisiPage() {
           <div className="md:w-1/2 w-full order-2 md:order-1">
             <h2 className="text-3xl font-bold text-[#4A6C6F] mb-4">Gotong Royong Menjaga Warisan</h2>
             <p className="text-lg mb-4">Pelestarian Larung Sesaji adalah tanggung jawab bersama. Pada perayaan tahun ini, semangat itu terwujud nyata melalui kolaborasi antara masyarakat desa di bawah pimpinan Bapak Sumarmo dengan para mahasiswa KKN-PPM UGM. Keterlibatan generasi muda ini bukan hanya saat prosesi, tapi dimulai dari persiapan menghias gunungan, menjadi bagian dari kirab budaya, hingga mendokumentasikan setiap momen berharga. Semangat gotong royong ini memastikan bahwa nilai-nilai kebersamaan, spiritualitas, dan harmoni dengan alam akan terus hidup dan diwariskan ke generasi selanjutnya.</p>
+            {/* Article Card */}
+            <div className="bg-[#EADFC9] rounded-xl p-6 shadow flex flex-col mt-8">
+              <h3 className="text-xl font-bold mb-2">Baca Artikel Lengkap</h3>
+              <p className="text-base mb-4">Baca kisah lengkap kolaborasi masyarakat dan mahasiswa dalam menjaga tradisi Larung Sesaji di Desa Bululawang.</p>
+              <Link href="/tradisi/article" className="inline-block px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition">Read Full Article</Link>
+            </div>
           </div>
           {/* Gallery Placeholder */}
           <div className="md:w-1/2 w-full order-1 md:order-2 flex flex-wrap gap-4 justify-center">
@@ -62,6 +68,27 @@ export default function TradisiPage() {
             <div className="w-40 h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">[Foto 4]</div>
           </div>
         </div>
+      </section>
+
+      {/* Module 3b: Booklet PDF Viewer & Download */}
+      <section className="max-w-4xl mx-auto px-4 py-12 flex flex-col items-center">
+        <h2 className="text-2xl font-bold text-[#4A6C6F] mb-4 text-center">Baca atau Unduh Booklet Sejarah & Makna Larung Sesaji</h2>
+        <div className="w-full max-w-2xl aspect-[4/5] bg-gray-100 rounded-lg shadow mb-4 overflow-hidden">
+          <iframe
+            src="/Booklet%20Sejarah%20dan%20Makna%20Larung%20Sesaji.pdf"
+            title="Booklet Sejarah dan Makna Larung Sesaji"
+            className="w-full h-full min-h-[500px]"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <a
+          href="/Booklet%20Sejarah%20dan%20Makna%20Larung%20Sesaji.pdf"
+          download
+          className="px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition"
+        >
+          Download Booklet (PDF)
+        </a>
       </section>
 
       {/* Module 4: An Invitation to Witness */}
