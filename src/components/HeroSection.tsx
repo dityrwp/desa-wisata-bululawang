@@ -12,7 +12,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-0"
       >
         <Image
-          src="/images/Hero.jpg"
+          src="/images/Hero.JPG"
           alt="Desa Bululawang Hero"
           fill
           priority
