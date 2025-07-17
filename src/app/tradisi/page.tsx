@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function TradisiPage() {
@@ -38,10 +37,10 @@ export default function TradisiPage() {
           <div className="bg-[#EADFC9] rounded-xl p-6 shadow flex flex-col">
             <h3 className="text-xl font-bold mb-2">Makna di Balik Sesaji</h3>
             <ul className="list-disc pl-5 space-y-2">
-              <li><b>Cok Bakal:</b> Melambangkan asal-usul kehidupan manusia dan rasa terima kasih kepada para pendiri desa yang telah "membabat alas".</li>
+              <li><b>Cok Bakal:</b> Melambangkan asal-usul kehidupan manusia dan rasa terima kasih kepada para pendiri desa yang telah &quot;membabat alas&quot;.</li>
               <li><b>Jenang Suro:</b> Bubur yang dibuat untuk menyambut bulan suci Suro, sebagai wujud doa dan penghormatan.</li>
               <li><b>Pisang Raja:</b> Lambang keseimbangan hidup yang selalu berpasangan (siang-malam, suka-duka) dan rasa hormat tertinggi kepada para leluhur.</li>
-              <li><b>Tebu (Sugar Cane):</b> Merupakan simbol dari "Manteb ing Kalbu" atau kemantapan hati dalam memanjatkan doa.</li>
+              <li><b>Tebu (Sugar Cane):</b> Merupakan simbol dari &quot;Manteb ing Kalbu&quot; atau kemantapan hati dalam memanjatkan doa.</li>
             </ul>
           </div>
         </div>

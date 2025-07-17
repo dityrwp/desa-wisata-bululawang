@@ -6,8 +6,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function WisataDetailPage({ params }: { params: { slug: string } }) {
-  const item = wisata.find((item) => item.slug === params.slug);
+export default async function WisataDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const item = wisata.find((item) => item.slug === slug);
 
   if (!item) {
     return <div>Not Found</div>;

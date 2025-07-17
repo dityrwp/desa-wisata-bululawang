@@ -38,11 +38,11 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-[#4A6C6F] mb-10 text-center">Testimoni</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-[#EADFC9] rounded-xl p-6 shadow text-[#264653]">
-              <p className="mb-4">"Desa Bululawang sangat indah dan penduduknya ramah. Saya sangat menikmati wisata alamnya!"</p>
+              <p className="mb-4">&quot;Desa Bululawang sangat indah dan penduduknya ramah. Saya sangat menikmati wisata alamnya!&quot;</p>
               <span className="font-bold">- Andi, Wisatawan</span>
             </div>
             <div className="bg-[#EADFC9] rounded-xl p-6 shadow text-[#264653]">
-              <p className="mb-4">"Produk UMKM Bululawang sangat unik dan berkualitas. Saya pasti akan kembali lagi!"</p>
+              <p className="mb-4">&quot;Produk UMKM Bululawang sangat unik dan berkualitas. Saya pasti akan kembali lagi!&quot;</p>
               <span className="font-bold">- Sari, Pengunjung</span>
             </div>
           </div>

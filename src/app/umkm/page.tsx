@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { umkm } from '@/data/umkm';
 
 export default function UmkmPage() {
@@ -13,12 +14,14 @@ export default function UmkmPage() {
               className={`flex flex-col md:flex-row ${isEven ? '' : 'md:flex-row-reverse'} items-center bg-[#EADFC9] rounded-xl shadow-lg overflow-hidden`}
             >
               <div className="md:w-1/2 w-full flex justify-center items-center p-6">
-                <img
-                  src={item.image}
+                <Image
+                  src={item.image || '/images/umkm/placeholder.jpg'}
                   alt={item.name}
+                  width={320}
+                  height={240}
                   className="w-full max-w-xs rounded-lg object-cover shadow-md"
                   style={{ aspectRatio: '4/3' }}
-                  onError={(e) => { e.currentTarget.src = '/images/umkm/placeholder.jpg'; }}
+                  priority={idx === 0}
                 />
               </div>
               <div className="md:w-1/2 w-full flex flex-col gap-4 p-6">

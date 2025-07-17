@@ -6,8 +6,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function UmkmDetailPage({ params }: { params: { slug: string } }) {
-  const item = umkm.find((item) => item.slug === params.slug);
+export default async function UmkmDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const item = umkm.find((item) => item.slug === slug);
 
   if (!item) {
     return <div>Not Found</div>;
