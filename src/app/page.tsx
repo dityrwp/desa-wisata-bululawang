@@ -52,7 +52,7 @@ export default function Home() {
           <div className="relative bg-white rounded-2xl shadow-xl flex flex-col md:flex-row overflow-hidden min-h-[340px]">
             <div className="relative md:w-2/3 w-full min-h-[340px] order-2 md:order-1 flex flex-col justify-center">
               <div className="relative w-full h-full min-h-[340px]">
-                <Image src="/images/app/wisata/pasur-landscape-2.jpg" alt="Wisata Alam" fill className="object-cover rounded-2xl" />
+                <Image src="/images/app/wisata/pasur-landscape-2.JPG" alt="Wisata Alam" fill className="object-cover rounded-2xl" />
               </div>
             </div>
             <div className="relative md:-ml-20 md:w-1/2 w-full z-10 flex flex-col justify-center bg-[#4A6C6F] p-10 rounded-2xl text-white shadow-xl md:my-10 md:mr-10 order-1 md:order-2">
