@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 w-full">
             <h2 className="text-4xl md:text-5xl font-extrabold text-[#4A6C6F] mb-6 font-serif">Sejarah Desa Bululawang</h2>
-            <p className="text-lg text-justify">Setiap nama menyimpan cerita. Menurut legenda yang dikisahkan turun-temurun, nama desa kami lahir dari sebuah pohon <span className="font-bold">Bolu</span> yang besar. Akar-akarnya yang kuat menjalar hingga membelah jalan, menciptakan formasi unik yang menyerupai sebuah pintu atau <span className="font-bold">Lawang</span> dalam bahasa Jawa. "Bolulawang" atau "Bululawang" ini menjadi simbol selamat datang dari alam, sebuah penanda sejarah yang menjadi inspirasi dan identitas kami hingga kini.</p>
+            <p className="text-lg text-justify">Setiap nama menyimpan cerita. Menurut legenda yang dikisahkan turun-temurun, nama desa kami lahir dari sebuah pohon <span className="font-bold">Bolu</span> yang besar. Akar-akarnya yang kuat menjalar hingga membelah jalan, menciptakan formasi unik yang menyerupai sebuah pintu atau <span className="font-bold">Lawang</span> dalam bahasa Jawa. &quot;Bolulawang&quot; atau &quot;Bululawang&quot; ini menjadi simbol selamat datang dari alam, sebuah penanda sejarah yang menjadi inspirasi dan identitas kami hingga kini.</p>
           </div>
         </section>
 
