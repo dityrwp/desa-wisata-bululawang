@@ -31,13 +31,13 @@ export default function Navbar() {
 
   return (
     <nav className={navClass} style={{ position: isHome ? undefined : 'static' }}>
-      <Link href="/" className="text-3xl font-bold font-serif">
+      <Link href="/" className="text-3xl font-bold font-serif whitespace-nowrap">
         Desa Bululawang
       </Link>
-      <div className="flex gap-8 text-lg">
-        <Link href="/wisata">Wisata</Link>
-        <Link href="/tradisi">Tradisi</Link>
-        <Link href="/umkm">UMKM</Link>
+      <div className="flex gap-6 text-lg overflow-x-auto max-w-full scrollbar-none whitespace-nowrap">
+        <Link href="/wisata" className="px-2">Wisata</Link>
+        <Link href="/tradisi" className="px-2">Tradisi</Link>
+        <Link href="/umkm" className="px-2">UMKM</Link>
       </div>
     </nav>
   );

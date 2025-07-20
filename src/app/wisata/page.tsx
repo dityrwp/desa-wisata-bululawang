@@ -57,7 +57,7 @@ export default function WisataPage() {
           {/* Card 2: Ekowisata */}
           <div className="bg-[#EADFC9] rounded-2xl p-8 shadow flex flex-col items-start">
             <h3 className="text-2xl font-bold mb-2 font-serif">Berpartisipasi dalam Konservasi Mangrove</h3>
-            <p className="text-base mb-2">Ikut serta dalam upaya pelestarian alam melalui program rehabilitasi mangrove di sekitar muara. Setiap kunjungan mendukung gerakan "PULIH" dan memberi kesempatan untuk belajar serta berkontribusi langsung.</p>
+            <p className="text-base mb-2">Ikut serta dalam upaya pelestarian alam melalui program rehabilitasi mangrove di sekitar muara. Setiap kunjungan mendukung gerakan &quot;PULIH&quot; dan memberi kesempatan untuk belajar serta berkontribusi langsung.</p>
           </div>
           {/* Card 3: Fotografi & Alam */}
           <div className="bg-[#EADFC9] rounded-2xl p-8 shadow flex flex-col items-start">
