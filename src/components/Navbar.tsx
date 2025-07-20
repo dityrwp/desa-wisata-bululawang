@@ -56,10 +56,22 @@ export default function Navbar() {
       </button>
       {/* Mobile Dropdown */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-[#4A6C6F] shadow-lg flex flex-col items-center py-4 md:hidden z-50 animate-fade-in">
-          <Link href="/wisata" className="py-2 w-full text-center hover:bg-[#355052]" onClick={() => setMenuOpen(false)}>Wisata</Link>
-          <Link href="/tradisi" className="py-2 w-full text-center hover:bg-[#355052]" onClick={() => setMenuOpen(false)}>Tradisi</Link>
-          <Link href="/umkm" className="py-2 w-full text-center hover:bg-[#355052]" onClick={() => setMenuOpen(false)}>UMKM</Link>
+        <div className="fixed inset-0 bg-[#4A6C6F]/95 flex flex-col items-center justify-start pt-8 z-[999] md:hidden animate-fade-in">
+          <div className="w-full flex justify-between items-center px-6 mb-8">
+            <span className="text-2xl font-bold font-serif text-white">Desa Bululawang</span>
+            <button
+              className="text-white text-3xl font-bold focus:outline-none"
+              aria-label="Tutup menu"
+              onClick={() => setMenuOpen(false)}
+            >
+              &times;
+            </button>
+          </div>
+          <nav className="flex flex-col items-center w-full gap-4">
+            <Link href="/wisata" className="py-3 w-full text-center text-xl font-bold text-white hover:bg-[#355052] transition" onClick={() => setMenuOpen(false)}>Wisata</Link>
+            <Link href="/tradisi" className="py-3 w-full text-center text-xl font-bold text-white hover:bg-[#355052] transition" onClick={() => setMenuOpen(false)}>Tradisi</Link>
+            <Link href="/umkm" className="py-3 w-full text-center text-xl font-bold text-white hover:bg-[#355052] transition" onClick={() => setMenuOpen(false)}>UMKM</Link>
+          </nav>
         </div>
       )}
     </nav>
