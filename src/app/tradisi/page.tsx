@@ -19,37 +19,137 @@ export default function TradisiPage() {
         </div>
       </section>
 
-      {/* Module 2: The Heart of the Ritual - Meaning & Symbolism */}
-      <section className="max-w-6xl mx-auto px-4 py-20">
-        <h2 className="text-3xl font-bold text-[#4A6C6F] mb-12 text-center">Lebih dari Sekadar Persembahan</h2>
-        <div className="grid md:grid-cols-3 gap-10">
-          {/* Sub-section 1 */}
-          <div className="bg-[#EADFC9] rounded-xl p-6 shadow flex flex-col">
-            <h3 className="text-xl font-bold mb-2">Apa itu Larung Sesaji?</h3>
-            <p className="text-base">Sebuah upacara adat di mana masyarakat pesisir mempersembahkan sesaji sebagai ungkapan rasa syukur kepada Tuhan Yang Maha Kuasa. Di Desa Bululawang, sesaji berupa hasil bumi dilarung ke Laut Selatan di Pantai Pasur, sebagai wujud doa dan penghormatan kepada para leluhur.</p>
+      {/* Cinematic Breaker: Dancer Photo */}
+      <section className="w-full py-0">
+        <img src="/images/app/tradisi/dance-2.JPG" alt="Tari Tradisi" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
+      </section>
+
+      {/* Module 2: The Heart of the Ritual - Introduction (Refined Two-Column, Full-Width White) */}
+      <section className="w-full bg-white py-20 px-4">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12">
+          {/* Left: Text */}
+          <div className="flex flex-col gap-6 justify-center md:w-1/2 w-full">
+            <div className="bg-[#EADFC9] rounded-2xl p-10 md:p-16 shadow-xl flex flex-col">
+              <h3 className="text-3xl md:text-5xl font-extrabold font-serif mb-6">Apa itu Larung Sesaji?</h3>
+              <p className="text-lg md:text-xl mb-8">Sebuah upacara adat di mana masyarakat pesisir mempersembahkan sesaji sebagai ungkapan rasa syukur kepada Tuhan Yang Maha Kuasa. Di Desa Bululawang, sesaji berupa hasil bumi dilarung ke Laut Selatan di Pantai Pasur, sebagai wujud doa dan penghormatan kepada para leluhur.</p>
+              <h3 className="text-3xl md:text-5xl font-extrabold font-serif mt-4 mb-6">Kapan Dilaksanakan?</h3>
+              <p className="text-lg md:text-xl">Tradisi ini digelar setiap tanggal 1 Suro dalam kalender Jawa, bertepatan dengan 1 Muharram dalam kalender Islam, menandai pergantian tahun yang sakral.</p>
+            </div>
           </div>
-          {/* Sub-section 2 */}
-          <div className="bg-[#EADFC9] rounded-xl p-6 shadow flex flex-col">
-            <h3 className="text-xl font-bold mb-2">Kapan Dilaksanakan?</h3>
-            <p className="text-base">Tradisi ini digelar setiap tanggal 1 Suro dalam kalender Jawa, bertepatan dengan 1 Muharram dalam kalender Islam, menandai pergantian tahun yang sakral.</p>
-          </div>
-          {/* Sub-section 3 */}
-          <div className="bg-[#EADFC9] rounded-xl p-6 shadow flex flex-col">
-            <h3 className="text-xl font-bold mb-2">Makna di Balik Sesaji</h3>
-            <ul className="list-disc pl-5 space-y-2">
-              <li><b>Cok Bakal:</b> Melambangkan asal-usul kehidupan manusia dan rasa terima kasih kepada para pendiri desa yang telah &quot;membabat alas&quot;.</li>
-              <li><b>Jenang Suro:</b> Bubur yang dibuat untuk menyambut bulan suci Suro, sebagai wujud doa dan penghormatan.</li>
-              <li><b>Pisang Raja:</b> Lambang keseimbangan hidup yang selalu berpasangan (siang-malam, suka-duka) dan rasa hormat tertinggi kepada para leluhur.</li>
-              <li><b>Tebu (Sugar Cane):</b> Merupakan simbol dari &quot;Manteb ing Kalbu&quot; atau kemantapan hati dalam memanjatkan doa.</li>
-            </ul>
+          {/* Right: Two stacked images, larger */}
+          <div className="flex flex-col gap-8 md:w-1/2 w-full">
+            <img src="/images/app/tradisi/larung-ritual-person-1.jpg" alt="Pemimpin Ritual" className="w-full rounded-2xl object-cover shadow-xl max-h-[320px]" />
+            <img src="/images/app/tradisi/sesaji-closeup-1.jpg" alt="Gunungan Sesaji" className="w-full rounded-2xl object-cover shadow-xl max-h-[320px]" />
           </div>
         </div>
       </section>
 
-      {/* Module 3: A Living Tradition - Community in Action */}
+      {/* Module 2b: Sejarah - The Evolution of Gratitude (Centered, Larger, Balanced) */}
+      <section className="w-full py-20 bg-gradient-to-r from-[#f7f3e9] to-[#EADFC9] flex items-center justify-center">
+        <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-center gap-12 mx-auto px-4">
+          {/* Left: Narration, centered card, larger */}
+          <div className="flex flex-col justify-center md:w-1/2 w-full">
+            <div className="bg-white rounded-2xl p-10 md:p-16 shadow-2xl flex flex-col items-start">
+              <h2 className="text-3xl md:text-5xl font-extrabold font-serif text-[#4A6C6F] mb-8">Sejarah: Dari Kesederhanaan Hingga Kemegahan</h2>
+              <p className="text-lg md:text-xl">Tradisi Larung Sesaji di Desa Bululawang telah berkembang seiring waktu, mencerminkan perjalanan ekonomi dan spiritualitas masyarakat kami. Dahulu, sesaji atau ubarampe yang dipersembahkan sangatlah sederhana, seringkali hanya berupa telur ayam yang dibagikan sesuai jumlah warga. Hal ini merupakan cerminan tulus dari rasa syukur yang disesuaikan dengan kemampuan ekonomi saat itu.<br /><br />Seiring membaiknya kesejahteraan, wujud syukur kami pun menjadi lebih besar. Persembahan berevolusi menjadi ayam, kambing, bahkan sapi atau kerbau yang lebih megah. Namun, esensinya tidak pernah berubah: sebuah ungkapan terima kasih yang mendalam kepada Tuhan, serta doa tulus agar seluruh warga diberi keselamatan, kesuksesan, dan hasil bumi yang melimpah.</p>
+            </div>
+          </div>
+          {/* Right: Three stacked images for Sejarah section */}
+          <div className="flex flex-col gap-8 justify-center md:w-1/2 w-full">
+            <img src="/images/app/tradisi/warrior-1.jpg" alt="Pejuang Tradisi" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
+            <img src="/images/app/tradisi/sesaji-closeup-2.jpg" alt="Sesaji Closeup" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
+            <img src="/images/app/tradisi/dancers-1.jpg" alt="Penari Tradisi" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
+          </div>
+        </div>
+      </section>
+
+      {/* Cinematic Climax: Boat Offering Photo */}
+      <section className="w-full py-0">
+        <img src="/images/app/tradisi/penyerahan-sesaji-laut-2.jpg" alt="Penyerahan Sesaji Laut" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
+      </section>
+
+      {/* Module 3: Makna di Balik Sesaji - The Seven Symbols of Life (Horizontal Carousel) */}
+      <section className="w-full bg-white py-20 px-4">
+        <h2 className="text-3xl md:text-5xl font-extrabold font-serif text-[#4A6C6F] mb-10 text-center">Tujuh Simbol Kehidupan: Mengupas Makna di Balik Sesaji</h2>
+        <div className="overflow-x-auto pb-4">
+          <div className="flex gap-8 min-w-[900px] md:min-w-[1200px]">
+            {/* Card 1: Cok Bakal */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/cok-bakal.jpg" alt="Cok Bakal" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Cok Bakal</h3>
+              <p className="text-base text-center">Melambangkan dua hal: asal-usul manusia (Bebakalaning Manungsa) dan sebagai tanda terima kasih kepada para pendiri desa (Cikal Bakal).</p>
+            </div>
+            {/* Card 2: Jenang Suro */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/jenang-suro.jpg" alt="Jenang Suro" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Jenang Suro</h3>
+              <p className="text-base text-center">Bubur yang dibuat dari biji-bijian sebagai wujud penghormatan dan cara menyambut datangnya bulan suci Muharram atau Suro.</p>
+            </div>
+            {/* Card 3: Pisang Raja */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/pisang-raja.jpg" alt="Pisang Raja" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Pisang Raja</h3>
+              <p className="text-base text-center">Lambang keseimbangan hidup yang selalu berpasangan (siang-malam, suka-duka) dan sebagai simbol penghormatan tertinggi kepada para leluhur.</p>
+            </div>
+            {/* Card 4: Janur */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/janur.jpg" alt="Janur" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Janur (Daun Kelapa Muda)</h3>
+              <p className="text-base text-center">Merupakan simbol dari "Nur Muhammad" atau cahaya suci yang dipercaya sebagai awal mula dari semua ciptaan, termasuk manusia.</p>
+            </div>
+            {/* Card 5: Andong Puring */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/andong-puring.jpg" alt="Andong Puring" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Andong Puring</h3>
+              <p className="text-base text-center">Sebuah ajakan untuk berdoa dengan sungguh-sungguh (andongoa) karena Tuhan pasti akan memberi (peparing) apa yang kita minta.</p>
+            </div>
+            {/* Card 6: Waringin */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/waringin.jpg" alt="Waringin" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Waringin (Pohon Beringin)</h3>
+              <p className="text-base text-center">Lambang kesuburan, dengan harapan agar tanaman tumbuh subur, hewan ternak sehat, dan semua kehidupan berkembang dengan baik.</p>
+            </div>
+            {/* Card 7: Tebu */}
+            <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
+              <img src="/images/app/tradisi/tebu.jpg" alt="Tebu" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Tebu</h3>
+              <p className="text-base text-center">Merupakan lambang dari "Manteb ing Kalbu" atau kemantapan hati dan niat yang tulus saat memanjatkan doa.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 4: The Deeper Wisdom (Three Callout Cards) */}
+      <section className="w-full bg-[#f7f3e9] py-20 px-4">
+        <h2 className="text-3xl md:text-5xl font-extrabold font-serif text-[#4A6C6F] mb-10 text-center">Kearifan di Balik Tradisi</h2>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Card 1: Mengapa Dilarung ke Laut? */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
+            <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#4A6C6F]">Mengapa Dilarung ke Laut?</h3>
+            <p className="text-base text-center">Laut adalah tempat berkumpulnya semua air dari darat. Melarung sesaji ke laut dimaknai sebagai pengembalian semua unsur ke asalnya, dengan harapan agar doa dan rasa syukur kita dibalas dengan rezeki yang seluas dan sedalam lautan.</p>
+          </div>
+          {/* Card 2: Fun Fact: Petik Laut */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
+            <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#4A6C6F]">Fun Fact: Petik Laut</h3>
+            <p className="text-base text-center">Selain pada tanggal 1 Suro, upacara serupa juga dapat dilaksanakan sebagai tradisi 'Petik Laut', yaitu sebagai rasa syukur yang diadakan ketika hasil tangkapan ikan para nelayan sedang sangat melimpah.</p>
+          </div>
+          {/* Card 3: Fun Fact: Panggilan Hati */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
+            <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#4A6C6F]">Fun Fact: Panggilan Hati</h3>
+            <p className="text-base text-center">Pemimpin adat Larung Sesaji tidak dipilih secara formal. Seseorang yang akan menggantikan pemimpin sebelumnya akan mendapatkan intuisi atau 'panggilan dari dalam hati' untuk melanjutkan tugas mulia ini.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cinematic Breaker: Karawitan Photo */}
+      <section className="w-full py-0">
+        <img src="/images/app/tradisi/karawitan-1.jpg" alt="Karawitan Tradisi" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
+      </section>
+
+      {/* Module 5: A Living Tradition - Community in Action (No Gallery) */}
       <section className="max-w-6xl mx-auto px-4 py-20">
-        <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
-          <div className="md:w-1/2 w-full order-2 md:order-1">
+        <div className="flex flex-col items-center gap-12 mb-12">
+          <div className="w-full">
             <h2 className="text-3xl font-bold text-[#4A6C6F] mb-4">Gotong Royong Menjaga Warisan</h2>
             <p className="text-lg mb-4">Pelestarian Larung Sesaji adalah tanggung jawab bersama. Pada perayaan tahun ini, semangat itu terwujud nyata melalui kolaborasi antara masyarakat desa di bawah pimpinan Bapak Sumarmo dengan para mahasiswa KKN-PPM UGM. Keterlibatan generasi muda ini bukan hanya saat prosesi, tapi dimulai dari persiapan menghias gunungan, menjadi bagian dari kirab budaya, hingga mendokumentasikan setiap momen berharga. Semangat gotong royong ini memastikan bahwa nilai-nilai kebersamaan, spiritualitas, dan harmoni dengan alam akan terus hidup dan diwariskan ke generasi selanjutnya.</p>
             {/* Article Card */}
@@ -59,26 +159,15 @@ export default function TradisiPage() {
               <Link href="/tradisi/article" className="inline-block px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition">Read Full Article</Link>
             </div>
           </div>
-          {/* Tradisi Gallery */}
-          <div className="md:w-1/2 w-full order-1 md:order-2 grid grid-cols-2 gap-4">
-            <img src="/images/app/tradisi/larung-ritual-person-1.jpg" alt="Ritual Larung 1" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/penyerahan-sesaji-laut-1.jpg" alt="Penyerahan Sesaji Laut 1" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/sesaji-closeup-1.jpg" alt="Sesaji Closeup 1" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/dance-1.JPG" alt="Tari Tradisi 1" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/larung-ritual-person-2.JPG" alt="Ritual Larung 2" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/penyerahan-sesaji-laut-2.jpg" alt="Penyerahan Sesaji Laut 2" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/sesaji-closeup-2.jpg" alt="Sesaji Closeup 2" className="w-full h-40 object-cover rounded-lg shadow" />
-            <img src="/images/app/tradisi/dance-2.JPG" alt="Tari Tradisi 2" className="w-full h-40 object-cover rounded-lg shadow" />
-          </div>
         </div>
       </section>
 
-      {/* Module 3b: Booklet PDF Viewer & Download */}
+      {/* Module 5b: Booklet PDF Viewer & Download (Fixed Path) */}
       <section className="max-w-4xl mx-auto px-4 py-12 flex flex-col items-center">
         <h2 className="text-2xl font-bold text-[#4A6C6F] mb-4 text-center">Baca atau Unduh Booklet Sejarah & Makna Larung Sesaji</h2>
         <div className="w-full max-w-2xl aspect-[4/5] bg-gray-100 rounded-lg shadow mb-4 overflow-hidden">
           <iframe
-            src="/Booklet%20Sejarah%20dan%20Makna%20Larung%20Sesaji.pdf"
+            src="/Booklet Sejarah dan Makna Larung Sesaji.pdf"
             title="Booklet Sejarah dan Makna Larung Sesaji"
             className="w-full h-full min-h-[500px]"
             frameBorder="0"
@@ -86,7 +175,7 @@ export default function TradisiPage() {
           ></iframe>
         </div>
         <a
-          href="/Booklet%20Sejarah%20dan%20Makna%20Larung%20Sesaji.pdf"
+          href="/Booklet Sejarah dan Makna Larung Sesaji.pdf"
           download
           className="px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition"
         >
@@ -94,14 +183,7 @@ export default function TradisiPage() {
         </a>
       </section>
 
-      {/* Module 4: An Invitation to Witness */}
-      <section className="w-full bg-[#4A6C6F] text-white py-20 px-4 flex flex-col items-center justify-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Rasakan Langsung Keagungan Larung Sesaji</h2>
-        <p className="max-w-2xl text-lg md:text-xl mb-10 text-center">
-          Larung Sesaji adalah daya tarik wisata budaya yang unik dan penuh makna. Kami mengundang Anda untuk datang ke Desa Bululawang dan menyaksikan langsung kearifan lokal kami. Rencanakan kunjungan Anda bertepatan dengan perayaan 1 Suro untuk menjadi bagian dari pengalaman spiritual yang tak terlupakan.
-        </p>
-        <Link href="/wisata" className="px-8 py-4 rounded bg-white text-[#264653] font-semibold text-lg shadow hover:bg-gray-200 transition">Rencanakan Kunjungan Anda</Link>
-      </section>
+
     </main>
   );
 }
