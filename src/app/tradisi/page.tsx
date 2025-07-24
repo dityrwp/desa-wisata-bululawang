@@ -5,10 +5,10 @@ export default function TradisiPage() {
     <main className="bg-white text-[#264653]">
       {/* Module 1: Immersive Introduction & Video Showcase */}
       <section className="w-full bg-[#4A6C6F] text-white py-20 px-4 flex flex-col items-center justify-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Larung Sesaji: The Soul of Our Shore</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Larung Sesaji</h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center">Setiap Tahun, Laut Memanggil Kami Pulang</h2>
         <p className="max-w-2xl text-lg md:text-xl mb-10 text-center">
-          Di Desa Bululawang, ada satu hari di mana daratan dan lautan bersatu dalam doa. Hari di mana kami menumpahkan rasa syukur ke dalam ombak, menghanyutkan harapan, dan merayakan harmoni antara manusia, alam, dan Sang Pencipta. Inilah Larung Sesaji, sebuah tradisi sakral yang menjadi detak jantung komunitas kami. Saksikanlah kisahnya.
+          Di Desa Bululawang, ada satu hari di mana daratan dan lautan bersatu dalam doa. Hari di mana kami menumpahkan rasa syukur ke dalam ombak, menghanyutkan harapan, dan merayakan harmoni antara manusia, alam, dan Sang Pencipta. Inilah Larung Sesaji, sebuah tradisi yang menjadi detak jantung komunitas kami. Saksikanlah kisahnya.
         </p>
         {/* Video Placeholder */}
         <div className="w-full max-w-3xl aspect-video bg-gray-300 rounded-xl flex items-center justify-center mb-4 shadow-lg relative">
@@ -59,12 +59,16 @@ export default function TradisiPage() {
               <Link href="/tradisi/article" className="inline-block px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition">Read Full Article</Link>
             </div>
           </div>
-          {/* Gallery Placeholder */}
-          <div className="md:w-1/2 w-full order-1 md:order-2 flex flex-wrap gap-4 justify-center">
-            <div className="w-40 h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">[Foto 1]</div>
-            <div className="w-40 h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">[Foto 2]</div>
-            <div className="w-40 h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">[Foto 3]</div>
-            <div className="w-40 h-40 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">[Foto 4]</div>
+          {/* Tradisi Gallery */}
+          <div className="md:w-1/2 w-full order-1 md:order-2 grid grid-cols-2 gap-4">
+            <img src="/images/app/tradisi/larung-ritual-person-1.jpg" alt="Ritual Larung 1" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/penyerahan-sesaji-laut-1.jpg" alt="Penyerahan Sesaji Laut 1" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/sesaji-closeup-1.jpg" alt="Sesaji Closeup 1" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/dance-1.JPG" alt="Tari Tradisi 1" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/larung-ritual-person-2.JPG" alt="Ritual Larung 2" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/penyerahan-sesaji-laut-2.jpg" alt="Penyerahan Sesaji Laut 2" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/sesaji-closeup-2.jpg" alt="Sesaji Closeup 2" className="w-full h-40 object-cover rounded-lg shadow" />
+            <img src="/images/app/tradisi/dance-2.JPG" alt="Tari Tradisi 2" className="w-full h-40 object-cover rounded-lg shadow" />
           </div>
         </div>
       </section>

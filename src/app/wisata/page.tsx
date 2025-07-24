@@ -21,27 +21,38 @@ export default function WisataPage() {
         </div>
       </section>
 
+
       {/* Module 2: Feature A - Black Sand */}
       <section className="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10 border-b border-gray-300">
         <div className="md:w-1/2 w-full mb-8 md:mb-0 order-2 md:order-1">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#4A6C6F] mb-6 font-serif">Berjalan di Atas Hamparan Pasir Hitam Berkilau</h2>
           <p className="text-lg mb-4">Rasakan sensasi unik berjalan di atas pasir hitam yang berkilau, hasil dari kandungan bijih besi alami. Pasir ini bukan hanya indah dipandang, tetapi juga menjadi kanvas sempurna untuk fotografi dan momen-momen tenang di tepi samudra.</p>
           <p className="text-lg">Fenomena pasir hitam ini adalah keunikan geologis yang jarang ditemui, menjadikan Pantai Pasur destinasi yang wajib dikunjungi bagi pencinta alam dan keindahan.</p>
+          <div className="grid grid-cols-2 gap-4 mt-6">
+            <Image src="/images/app/wisata/pasur-sand-1.JPG" alt="Pasir Hitam Closeup" width={250} height={180} className="rounded-xl object-cover w-full h-auto" />
+            <Image src="/images/app/wisata/pasur-big-rock-landscape-6.JPG" alt="Batu Besar di Pantai Pasur" width={250} height={180} className="rounded-xl object-cover w-full h-auto" />
+          </div>
         </div>
-        <div className="md:w-1/2 w-full flex justify-center order-1 md:order-2">
-          <Image src="/images/app/wisata/pasur-landscape-2.jpg" alt="Pasir Hitam Pantai Pasur" width={500} height={350} className="w-full h-auto max-w-lg rounded-xl object-cover shadow-lg" />
+        <div className="md:w-1/2 w-full flex flex-col gap-4 justify-center order-1 md:order-2">
+          <Image src="/images/app/wisata/pasur-landscape-2.JPG" alt="Pasir Hitam Pantai Pasur" width={500} height={350} className="w-full h-auto max-w-lg rounded-xl object-cover shadow-lg" />
+          <Image src="/images/app/wisata/pasur-hill-landscape-5.JPG" alt="Bukit Hijau Pantai Pasur" width={500} height={180} className="w-full h-auto max-w-lg rounded-xl object-cover shadow-lg" />
         </div>
       </section>
 
       {/* Module 2: Feature B - Muara Kondang */}
       <section className="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row-reverse items-center gap-10 border-b border-gray-300">
-        <div className="md:w-1/2 w-full mb-8 md:mb-0 flex justify-center">
+        <div className="md:w-1/2 w-full mb-8 md:mb-0 flex flex-col gap-4 justify-center">
           <Image src="/images/app/wisata/muara-kondang-1.jpg" alt="Muara Kondang" width={500} height={350} className="w-full h-auto max-w-lg rounded-xl object-cover shadow-lg" />
+          <Image src="/images/app/wisata/muara-landscape-1.jpg" alt="Muara Kondang Landscape" width={500} height={180} className="w-full h-auto max-w-lg rounded-xl object-cover shadow-lg" />
         </div>
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#4A6C6F] mb-6 font-serif">Muara Kondang: Pertemuan Air Tawar dan Asin</h2>
           <p className="text-lg mb-4">Di ujung Pantai Pasur, Muara Kondang menjadi permata tersembunyi yang menawarkan suasana tenang dan damai. Estuari ini adalah tempat bertemunya air tawar dan asin, menciptakan ekosistem unik yang kaya akan kehidupan.</p>
           <p className="text-lg">Muara ini menjadi tempat favorit keluarga untuk bermain air dengan aman, sekaligus surga bagi pengamat burung dan pecinta alam.</p>
+          <div className="grid grid-cols-2 gap-4 mt-6">
+            <Image src="/images/app/wisata/muara-landscape-2.JPG" alt="Muara Kondang Sungai" width={250} height={180} className="rounded-xl object-cover w-full h-auto" />
+            <Image src="/images/app/wisata/muara-portrait-2.jpg" alt="Muara Kondang Portrait" width={250} height={180} className="rounded-xl object-cover w-full h-auto" />
+          </div>
         </div>
       </section>
 
