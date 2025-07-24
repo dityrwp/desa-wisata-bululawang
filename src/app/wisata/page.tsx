@@ -60,17 +60,17 @@ export default function WisataPage() {
 
 
       {/* Module 2: Feature A - Black Sand */}
-      <section className="w-full py-0 md:py-16 bg-gradient-to-r from-[#EADFC9] to-[#f7f3e9] relative overflow-x-hidden">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+      <section className="w-full py-6 md:py-16 bg-gradient-to-r from-[#EADFC9] to-[#f7f3e9] relative overflow-x-hidden">
+        <div className="max-w-6xl mx-auto px-2 md:px-4 flex flex-col md:flex-row items-center gap-6 md:gap-10">
           {/* Overlapping image band, full bleed on mobile */}
-          <div className="md:w-1/2 w-full mb-8 md:mb-0 order-2 md:order-1 relative">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#4A6C6F] mb-6 font-serif">Berjalan di Atas Hamparan Pasir Hitam Berkilau</h2>
-            <p className="text-lg mb-4">Rasakan sensasi unik berjalan di atas pasir hitam yang berkilau, hasil dari kandungan bijih besi alami. Pasir ini bukan hanya indah dipandang, tetapi juga menjadi kanvas sempurna untuk fotografi dan momen-momen tenang di tepi samudra.</p>
-            <p className="text-lg">Fenomena pasir hitam ini adalah keunikan geologis yang jarang ditemui, menjadikan Pantai Pasur destinasi yang wajib dikunjungi bagi pencinta alam dan keindahan.</p>
-            <div className="grid grid-cols-2 gap-4 mt-6">
+          <div className="md:w-1/2 w-full mb-6 md:mb-0 order-2 md:order-1 relative">
+            <h2 className="text-2xl md:text-4xl font-extrabold text-[#4A6C6F] mb-4 md:mb-6 font-serif">Berjalan di Atas Hamparan Pasir Hitam Berkilau</h2>
+            <p className="text-base md:text-lg mb-2 md:mb-4">Rasakan sensasi unik berjalan di atas pasir hitam yang berkilau, hasil dari kandungan bijih besi alami. Pasir ini bukan hanya indah dipandang, tetapi juga menjadi kanvas sempurna untuk fotografi dan momen-momen tenang di tepi samudra.</p>
+            <p className="text-base md:text-lg">Fenomena pasir hitam ini adalah keunikan geologis yang jarang ditemui, menjadikan Pantai Pasur destinasi yang wajib dikunjungi bagi pencinta alam dan keindahan.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-6">
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/pasur-sand-1.JPG" alt="Pasir Hitam Berkilau" fill className="object-cover" />
-                <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Pasir Hitam Berkilau</figcaption>
+                <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Pasir Hitam</figcaption>
               </figure>
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/pasur-big-rock-landscape-6.JPG" alt="Batu Besar di Pantai Pasur" fill className="object-cover" />
@@ -92,8 +92,8 @@ export default function WisataPage() {
       </section>
 
       {/* Module 2: Feature B - Muara Kondang */}
-      <section className="w-full py-0 md:py-16 bg-gradient-to-l from-[#d6e6e6] to-[#f7f3e9] relative overflow-x-hidden">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row-reverse items-center gap-10">
+      <section className="w-full py-6 md:py-16 bg-gradient-to-l from-[#d6e6e6] to-[#f7f3e9] relative overflow-x-hidden">
+        <div className="max-w-6xl mx-auto px-2 md:px-4 flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10">
           <div className="md:w-1/2 w-full flex flex-col gap-4 justify-center">
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/muara-kondang-1.jpg" alt="Muara Kondang" fill className="object-cover" />
@@ -105,10 +105,10 @@ export default function WisataPage() {
             </figure>
           </div>
           <div className="md:w-1/2 w-full">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#4A6C6F] mb-6 font-serif">Muara Kondang: Pertemuan Air Tawar dan Asin</h2>
-            <p className="text-lg mb-4">Di ujung Pantai Pasur, Muara Kondang menjadi permata tersembunyi yang menawarkan suasana tenang dan damai. Estuari ini adalah tempat bertemunya air tawar dan asin, menciptakan ekosistem unik yang kaya akan kehidupan.</p>
-            <p className="text-lg">Muara ini menjadi tempat favorit keluarga untuk bermain air dengan aman, sekaligus surga bagi pengamat burung dan pecinta alam.</p>
-            <div className="grid grid-cols-2 gap-4 mt-6">
+            <h2 className="text-2xl md:text-4xl font-extrabold text-[#4A6C6F] mb-4 md:mb-6 font-serif">Muara Kondang: Pertemuan Air Tawar dan Asin</h2>
+            <p className="text-base md:text-lg mb-2 md:mb-4">Di ujung Pantai Pasur, Muara Kondang menjadi permata tersembunyi yang menawarkan suasana tenang dan damai. Estuari ini adalah tempat bertemunya air tawar dan asin, menciptakan ekosistem unik yang kaya akan kehidupan.</p>
+            <p className="text-base md:text-lg">Muara ini menjadi tempat favorit keluarga untuk bermain air dengan aman, sekaligus surga bagi pengamat burung dan pecinta alam.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-6">
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/muara-landscape-2.JPG" alt="Muara Kondang Sungai" fill className="object-cover" />
                 <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Muara Kondang Sungai</figcaption>
@@ -123,43 +123,43 @@ export default function WisataPage() {
       </section>
 
       {/* Module 3: The Experience Hub */}
-      <section className="w-full py-0 md:py-20 bg-gradient-to-r from-[#264653] to-[#4A6C6F] relative">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-12 text-center font-serif">Jelajahi Berbagai Pengalaman di Pantai Pasur</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4">
+      <section className="w-full py-6 md:py-20 bg-gradient-to-r from-[#264653] to-[#4A6C6F] relative">
+        <h2 className="text-2xl md:text-4xl font-extrabold text-white mb-6 md:mb-12 text-center font-serif">Jelajahi Berbagai Pengalaman di Pantai Pasur</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 max-w-6xl mx-auto px-2 md:px-4">
           {/* Card 1: Interaksi Budaya */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[260px] bg-black">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
             <Image src="/images/app/wisata/pasur-sailor-1.jpg" alt="Nelayan Lokal" fill className="object-cover z-0" />
             <div className="absolute inset-0 bg-black/60 z-10" />
-            <div className="relative z-20 p-8">
-              <h3 className="text-2xl font-bold mb-2 font-serif text-white">Menyapa Nelayan Lokal</h3>
-              <p className="text-base mb-2 text-white/90">Saksikan langsung kehidupan para nelayan yang menjadi denyut nadi Pantai Pasur. Pengunjung dapat berinteraksi, belajar, dan merasakan kehangatan budaya pesisir yang otentik.</p>
+            <div className="relative z-20 p-4 md:p-8">
+              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Menyapa Nelayan Lokal</h3>
+              <p className="text-sm md:text-base mb-2 text-white/90">Saksikan langsung kehidupan para nelayan yang menjadi denyut nadi Pantai Pasur. Pengunjung dapat berinteraksi, belajar, dan merasakan kehangatan budaya pesisir yang otentik.</p>
             </div>
           </div>
           {/* Card 2: Ekowisata */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[260px] bg-black">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
             <Image src="/images/app/wisata/pasur-landscape-4.jpg" alt="Konservasi Mangrove" fill className="object-cover z-0" />
             <div className="absolute inset-0 bg-black/60 z-10" />
-            <div className="relative z-20 p-8">
-              <h3 className="text-2xl font-bold mb-2 font-serif text-white">Berpartisipasi dalam Konservasi Mangrove</h3>
-              <p className="text-base mb-2 text-white/90">Ikut serta dalam upaya pelestarian alam melalui program rehabilitasi mangrove di sekitar muara. Setiap kunjungan mendukung gerakan "PULIH" dan memberi kesempatan untuk belajar serta berkontribusi langsung.</p>
+            <div className="relative z-20 p-4 md:p-8">
+              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Berpartisipasi dalam Konservasi Mangrove</h3>
+              <p className="text-sm md:text-base mb-2 text-white/90">Ikut serta dalam upaya pelestarian alam melalui program rehabilitasi mangrove di sekitar muara. Setiap kunjungan mendukung gerakan &quot;PULIH&quot; dan memberi kesempatan untuk belajar serta berkontribusi langsung.</p>
             </div>
           </div>
           {/* Card 3: Fotografi & Alam */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[260px] bg-black">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
             <Image src="/images/app/wisata/samudera-portrait-1.jpg" alt="Fotografi Alam" fill className="object-cover z-0" />
             <div className="absolute inset-0 bg-black/60 z-10" />
-            <div className="relative z-20 p-8">
-              <h3 className="text-2xl font-bold mb-2 font-serif text-white">Abadikan Momen Spektakuler</h3>
-              <p className="text-base mb-2 text-white/90">Pantai Pasur adalah surga bagi fotografer dan pencinta alam. Dari pasir hitam yang dramatis, ombak yang megah, hingga perbukitan hijau yang memeluk pantai, setiap sudut menawarkan keindahan yang layak diabadikan.</p>
+            <div className="relative z-20 p-4 md:p-8">
+              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Abadikan Momen Spektakuler</h3>
+              <p className="text-sm md:text-base mb-2 text-white/90">Pantai Pasur adalah surga bagi fotografer dan pencinta alam. Dari pasir hitam yang dramatis, ombak yang megah, hingga perbukitan hijau yang memeluk pantai, setiap sudut menawarkan keindahan yang layak diabadikan.</p>
             </div>
           </div>
           {/* Card 4: Saksi Tradisi */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[260px] bg-black">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
             <Image src="/images/app/wisata/pasur-landscape-1.JPG" alt="Larung Sesaji" fill className="object-cover z-0" />
             <div className="absolute inset-0 bg-black/60 z-10" />
-            <div className="relative z-20 p-8">
-              <h3 className="text-2xl font-bold mb-2 font-serif text-white">Menyaksikan Upacara Larung Sesaji</h3>
-              <p className="text-base mb-2 text-white/90">Pantai Pasur adalah lokasi sakral bagi tradisi Larung Sesaji, upacara adat yang menjadi puncak spiritual dan budaya masyarakat Bululawang. Jadilah saksi momen penuh makna ini saat berkunjung.</p>
+            <div className="relative z-20 p-4 md:p-8">
+              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Menyaksikan Upacara Larung Sesaji</h3>
+              <p className="text-sm md:text-base mb-2 text-white/90">Pantai Pasur adalah lokasi sakral bagi tradisi Larung Sesaji, upacara adat yang menjadi puncak spiritual dan budaya masyarakat Bululawang. Jadilah saksi momen penuh makna ini saat berkunjung.</p>
             </div>
           </div>
         </div>
