@@ -75,7 +75,7 @@ export default function TradisiPage() {
           <div className="flex gap-8 min-w-[900px] md:min-w-[1200px]">
             {/* Card 1: Cok Bakal */}
             <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
-              <img src="/images/app/tradisi/cok-bakal.jpg" alt="Cok Bakal" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <img src="/images/app/tradisi/cok-bakal-1.JPG" alt="Cok Bakal" className="w-20 h-20 object-cover rounded-full mb-4" />
               <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Cok Bakal</h3>
               <p className="text-base text-center">Melambangkan dua hal: asal-usul manusia (Bebakalaning Manungsa) dan sebagai tanda terima kasih kepada para pendiri desa (Cikal Bakal).</p>
             </div>
@@ -95,11 +95,11 @@ export default function TradisiPage() {
             <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
               <img src="/images/app/tradisi/janur.jpg" alt="Janur" className="w-20 h-20 object-cover rounded-full mb-4" />
               <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Janur (Daun Kelapa Muda)</h3>
-              <p className="text-base text-center">Merupakan simbol dari "Nur Muhammad" atau cahaya suci yang dipercaya sebagai awal mula dari semua ciptaan, termasuk manusia.</p>
+              <p className="text-base text-center">Merupakan simbol dari &quot;Nur Muhammad&quot; atau cahaya suci yang dipercaya sebagai awal mula dari semua ciptaan, termasuk manusia.</p>
             </div>
             {/* Card 5: Andong Puring */}
             <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
-              <img src="/images/app/tradisi/andong-puring.jpg" alt="Andong Puring" className="w-20 h-20 object-cover rounded-full mb-4" />
+              <img src="/images/app/tradisi/andong.jpg" alt="Andong Puring" className="w-20 h-20 object-cover rounded-full mb-4" />
               <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Andong Puring</h3>
               <p className="text-base text-center">Sebuah ajakan untuk berdoa dengan sungguh-sungguh (andongoa) karena Tuhan pasti akan memberi (peparing) apa yang kita minta.</p>
             </div>
@@ -113,7 +113,7 @@ export default function TradisiPage() {
             <div className="min-w-[300px] bg-[#EADFC9] rounded-2xl shadow-xl p-8 flex flex-col items-center">
               <img src="/images/app/tradisi/tebu.jpg" alt="Tebu" className="w-20 h-20 object-cover rounded-full mb-4" />
               <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4A6C6F]">Tebu</h3>
-              <p className="text-base text-center">Merupakan lambang dari "Manteb ing Kalbu" atau kemantapan hati dan niat yang tulus saat memanjatkan doa.</p>
+              <p className="text-base text-center">Merupakan lambang dari &quot;Manteb ing Kalbu&quot; atau kemantapan hati dan niat yang tulus saat memanjatkan doa.</p>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function TradisiPage() {
           {/* Card 2: Fun Fact: Petik Laut */}
           <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#4A6C6F]">Fun Fact: Petik Laut</h3>
-            <p className="text-base text-center">Selain pada tanggal 1 Suro, upacara serupa juga dapat dilaksanakan sebagai tradisi 'Petik Laut', yaitu sebagai rasa syukur yang diadakan ketika hasil tangkapan ikan para nelayan sedang sangat melimpah.</p>
+            <p className="text-base text-center">Selain pada tanggal 1 Suro, upacara serupa juga dapat dilaksanakan sebagai tradisi &quot;Petik Laut&quot;, yaitu sebagai rasa syukur yang diadakan ketika hasil tangkapan ikan para nelayan sedang sangat melimpah.</p>
           </div>
           {/* Card 3: Fun Fact: Panggilan Hati */}
           <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
@@ -156,7 +156,7 @@ export default function TradisiPage() {
             <div className="bg-[#EADFC9] rounded-xl p-6 shadow flex flex-col mt-8">
               <h3 className="text-xl font-bold mb-2">Baca Artikel Lengkap</h3>
               <p className="text-base mb-4">Baca kisah lengkap kolaborasi masyarakat dan mahasiswa dalam menjaga tradisi Larung Sesaji di Desa Bululawang.</p>
-              <Link href="/tradisi/article" className="inline-block px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition">Read Full Article</Link>
+              <Link href="/tradisi/article" className="inline-block px-6 py-2 rounded bg-[#4A6C6F] text-white font-semibold hover:bg-[#355052] transition">Baca Selengkapnya</Link>
             </div>
           </div>
         </div>
