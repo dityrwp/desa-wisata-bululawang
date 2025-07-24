@@ -136,7 +136,7 @@ export default function TradisiPage() {
           {/* Card 3: Fun Fact: Panggilan Hati */}
           <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#4A6C6F]">Fun Fact: Panggilan Hati</h3>
-            <p className="text-base text-center">Pemimpin adat Larung Sesaji tidak dipilih secara formal. Seseorang yang akan menggantikan pemimpin sebelumnya akan mendapatkan intuisi atau 'panggilan dari dalam hati' untuk melanjutkan tugas mulia ini.</p>
+            <p className="text-base text-center">Pemimpin adat Larung Sesaji tidak dipilih secara formal. Seseorang yang akan menggantikan pemimpin sebelumnya akan mendapatkan intuisi atau &quot;panggilan dari dalam hati&quot; untuk melanjutkan tugas mulia ini.</p>
           </div>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function TradisiPage() {
           </div>
         </div>
       </section>
-
+npm 
       {/* Module 5b: Booklet PDF Viewer & Download (Fixed Path) */}
       <section className="max-w-4xl mx-auto px-4 py-12 flex flex-col items-center">
         <h2 className="text-2xl font-bold text-[#4A6C6F] mb-4 text-center">Baca atau Unduh Booklet Sejarah & Makna Larung Sesaji</h2>

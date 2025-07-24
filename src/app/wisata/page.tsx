@@ -70,22 +70,22 @@ export default function WisataPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-6">
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/pasur-sand-1.JPG" alt="Pasir Hitam Berkilau" fill className="object-cover" />
-                <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Pasir Hitam</figcaption>
+                {/* figcaption removed */}
               </figure>
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/pasur-big-rock-landscape-6.JPG" alt="Batu Besar di Pantai Pasur" fill className="object-cover" />
-                <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Batu Besar</figcaption>
+                {/* figcaption removed */}
               </figure>
             </div>
           </div>
           <div className="md:w-1/2 w-full flex flex-col gap-4 justify-center order-1 md:order-2">
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/pasur-landscape-2.JPG" alt="Pasir Hitam Pantai Pasur" fill className="object-cover" />
-              <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Pantai Pasur</figcaption>
+              {/* figcaption removed */}
             </figure>
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/pasur-hill-landscape-5.JPG" alt="Bukit Hijau Pantai Pasur" fill className="object-cover" />
-              <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Bukit Hijau</figcaption>
+              {/* figcaption removed */}
             </figure>
           </div>
         </div>
@@ -97,11 +97,11 @@ export default function WisataPage() {
           <div className="md:w-1/2 w-full flex flex-col gap-4 justify-center">
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/muara-kondang-1.jpg" alt="Muara Kondang" fill className="object-cover" />
-              <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Muara Kondang</figcaption>
+              {/* figcaption removed */}
             </figure>
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/muara-landscape-1.jpg" alt="Muara Kondang Landscape" fill className="object-cover" />
-              <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Muara Kondang Landscape</figcaption>
+              {/* figcaption removed */}
             </figure>
           </div>
           <div className="md:w-1/2 w-full">
@@ -111,11 +111,11 @@ export default function WisataPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-6">
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/muara-landscape-2.JPG" alt="Muara Kondang Sungai" fill className="object-cover" />
-                <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Muara Kondang Sungai</figcaption>
+                {/* figcaption removed */}
               </figure>
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/muara-portrait-2.jpg" alt="Muara Kondang Portrait" fill className="object-cover" />
-                <figcaption className="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">Muara Kondang Portrait</figcaption>
+                {/* figcaption removed */}
               </figure>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function WisataPage() {
       {/* Module 3: The Experience Hub */}
       <section className="w-full py-6 md:py-20 bg-gradient-to-r from-[#264653] to-[#4A6C6F] relative">
         <h2 className="text-2xl md:text-4xl font-extrabold text-white mb-6 md:mb-12 text-center font-serif">Jelajahi Berbagai Pengalaman di Pantai Pasur</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 max-w-6xl mx-auto px-2 md:px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 max-w-6xl mx-auto px-2 md:px-4">
           {/* Card 1: Interaksi Budaya */}
           <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
             <Image src="/images/app/wisata/pasur-sailor-1.jpg" alt="Nelayan Lokal" fill className="object-cover z-0" />
@@ -135,31 +135,22 @@ export default function WisataPage() {
               <p className="text-sm md:text-base mb-2 text-white/90">Saksikan langsung kehidupan para nelayan yang menjadi denyut nadi Pantai Pasur. Pengunjung dapat berinteraksi, belajar, dan merasakan kehangatan budaya pesisir yang otentik.</p>
             </div>
           </div>
-          {/* Card 2: Ekowisata */}
+          {/* Card 2: Saksi Tradisi (center, links to tradisi page) */}
+          <a href="/tradisi" className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black transition-transform hover:scale-105 focus:scale-105">
+            <Image src="/images/app/wisata/samudera-portrait-1.jpg" alt="Larung Sesaji" fill className="object-cover z-0" />
+            <div className="absolute inset-0 bg-black/60 z-10" />
+            <div className="relative z-20 p-4 md:p-8">
+              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Menyaksikan Upacara Larung Sesaji</h3>
+              <p className="text-sm md:text-base mb-2 text-white/90">Pantai Pasur adalah lokasi sakral bagi tradisi Larung Sesaji, upacara adat yang menjadi puncak spiritual dan budaya masyarakat Bululawang. <span className="underline">Pelajari tradisi ini lebih lanjut &rarr;</span></p>
+            </div>
+          </a>
+          {/* Card 3: Ekowisata */}
           <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
             <Image src="/images/app/wisata/pasur-landscape-4.jpg" alt="Konservasi Mangrove" fill className="object-cover z-0" />
             <div className="absolute inset-0 bg-black/60 z-10" />
             <div className="relative z-20 p-4 md:p-8">
               <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Berpartisipasi dalam Konservasi Mangrove</h3>
               <p className="text-sm md:text-base mb-2 text-white/90">Ikut serta dalam upaya pelestarian alam melalui program rehabilitasi mangrove di sekitar muara. Setiap kunjungan mendukung gerakan &quot;PULIH&quot; dan memberi kesempatan untuk belajar serta berkontribusi langsung.</p>
-            </div>
-          </div>
-          {/* Card 3: Fotografi & Alam */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
-            <Image src="/images/app/wisata/samudera-portrait-1.jpg" alt="Fotografi Alam" fill className="object-cover z-0" />
-            <div className="absolute inset-0 bg-black/60 z-10" />
-            <div className="relative z-20 p-4 md:p-8">
-              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Abadikan Momen Spektakuler</h3>
-              <p className="text-sm md:text-base mb-2 text-white/90">Pantai Pasur adalah surga bagi fotografer dan pencinta alam. Dari pasir hitam yang dramatis, ombak yang megah, hingga perbukitan hijau yang memeluk pantai, setiap sudut menawarkan keindahan yang layak diabadikan.</p>
-            </div>
-          </div>
-          {/* Card 4: Saksi Tradisi */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg flex flex-col items-start justify-end min-h-[220px] md:min-h-[260px] bg-black">
-            <Image src="/images/app/wisata/pasur-landscape-1.JPG" alt="Larung Sesaji" fill className="object-cover z-0" />
-            <div className="absolute inset-0 bg-black/60 z-10" />
-            <div className="relative z-20 p-4 md:p-8">
-              <h3 className="text-lg md:text-2xl font-bold mb-2 font-serif text-white">Menyaksikan Upacara Larung Sesaji</h3>
-              <p className="text-sm md:text-base mb-2 text-white/90">Pantai Pasur adalah lokasi sakral bagi tradisi Larung Sesaji, upacara adat yang menjadi puncak spiritual dan budaya masyarakat Bululawang. Jadilah saksi momen penuh makna ini saat berkunjung.</p>
             </div>
           </div>
         </div>
