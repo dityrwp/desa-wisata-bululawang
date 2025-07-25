@@ -106,7 +106,7 @@ export default function WisataPage() {
           {/* Portrait image as a floating card */}
           <div className="md:w-2/5 w-full flex justify-center order-2 mt-6 md:mt-0">
             <figure className="w-64 h-80 rounded-2xl overflow-hidden relative shadow-2xl border-4 border-white bg-white/80">
-              <Image src="/images/app/wisata/muara-portrait-2.JPG" alt="Muara Kondang" fill className="object-cover" />
+              <Image src="/images/app/wisata/muara-portrait-2.jpg" alt="Muara Kondang" fill className="object-cover" />
             </figure>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function WisataPage() {
 
       {/* Cinematic Break: Muara Kondang Landscape */}
       <section className="w-full py-0">
-        <img src="/images/app/wisata/muara-landscape-2.jpg" alt="Muara Kondang Sungai" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
+        <img src="/images/app/wisata/muara-landscape-2.JPG" alt="Muara Kondang Sungai" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
       </section>
 
       {/* Module 3: The Experience Hub */}
