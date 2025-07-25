@@ -75,7 +75,7 @@ export default function Home() {
         {/* UMKM Section - Postcard Style */}
         <section className="max-w-6xl mx-auto px-4 py-16 border-b border-gray-300">
           <div className="relative rounded-2xl shadow-xl overflow-hidden min-h-[380px] group">
-            <Image src="/images/app/umkm/placeholder.JPG" alt="UMKM Lokal" fill priority className="object-cover w-full h-full rounded-2xl transition-transform duration-500 group-hover:scale-105" />
+            <Image src="/images/bridge-1.JPG" alt="UMKM Lokal" fill priority className="object-cover w-full h-full rounded-2xl transition-transform duration-500 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent rounded-2xl" />
             <div className="absolute bottom-0 left-0 right-0 p-8 pb-10 text-white z-10">
               <h3 className="text-3xl md:text-4xl font-extrabold mb-3 font-serif drop-shadow-lg">Dukung Karya Kami</h3>
