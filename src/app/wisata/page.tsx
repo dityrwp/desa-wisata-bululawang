@@ -70,25 +70,23 @@ export default function WisataPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-6">
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/pasur-sand-1.JPG" alt="Pasir Hitam Berkilau" fill className="object-cover" />
-                {/* figcaption removed */}
               </figure>
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
                 <Image src="/images/app/wisata/pasur-big-rock-landscape-6.JPG" alt="Batu Besar di Pantai Pasur" fill className="object-cover" />
-                {/* figcaption removed */}
               </figure>
             </div>
           </div>
           <div className="md:w-1/2 w-full flex flex-col gap-4 justify-center order-1 md:order-2">
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/pasur-landscape-2.JPG" alt="Pasir Hitam Pantai Pasur" fill className="object-cover" />
-              {/* figcaption removed */}
-            </figure>
-            <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
-              <Image src="/images/app/wisata/pasur-hill-landscape-5.JPG" alt="Bukit Hijau Pantai Pasur" fill className="object-cover" />
-              {/* figcaption removed */}
             </figure>
           </div>
         </div>
+      </section>
+
+      {/* Cinematic Break: Black Sand Beach */}
+      <section className="w-full py-0">
+        <img src="/images/app/wisata/pasur-hill-landscape-5.JPG" alt="Bukit Hijau Pantai Pasur" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
       </section>
 
       {/* Module 2: Feature B - Muara Kondang */}
@@ -97,11 +95,6 @@ export default function WisataPage() {
           <div className="md:w-1/2 w-full flex flex-col gap-4 justify-center">
             <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
               <Image src="/images/app/wisata/muara-kondang-1.jpg" alt="Muara Kondang" fill className="object-cover" />
-              {/* figcaption removed */}
-            </figure>
-            <figure className="aspect-video w-full rounded-xl overflow-hidden relative shadow-lg">
-              <Image src="/images/app/wisata/muara-landscape-1.jpg" alt="Muara Kondang Landscape" fill className="object-cover" />
-              {/* figcaption removed */}
             </figure>
           </div>
           <div className="md:w-1/2 w-full">
@@ -110,16 +103,16 @@ export default function WisataPage() {
             <p className="text-base md:text-lg">Muara ini menjadi tempat favorit keluarga untuk bermain air dengan aman, sekaligus surga bagi pengamat burung dan pecinta alam.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-6">
               <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
-                <Image src="/images/app/wisata/muara-landscape-2.JPG" alt="Muara Kondang Sungai" fill className="object-cover" />
-                {/* figcaption removed */}
-              </figure>
-              <figure className="aspect-video w-full rounded-xl overflow-hidden relative">
-                <Image src="/images/app/wisata/muara-portrait-2.jpg" alt="Muara Kondang Portrait" fill className="object-cover" />
-                {/* figcaption removed */}
+                <Image src="/images/app/wisata/muara-landscape-1.jpg" alt="Muara Kondang Landscape" fill className="object-cover" />
               </figure>
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Cinematic Break: Muara Kondang Landscape */}
+      <section className="w-full py-0">
+        <img src="/images/app/wisata/muara-landscape-2.JPG" alt="Muara Kondang Sungai" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
       </section>
 
       {/* Module 3: The Experience Hub */}

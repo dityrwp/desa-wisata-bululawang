@@ -56,9 +56,9 @@ export default function TradisiPage() {
           </div>
           {/* Right: Three stacked images for Sejarah section */}
           <div className="flex flex-col gap-8 justify-center md:w-1/2 w-full">
-            <img src="/images/app/tradisi/warrior-1.jpg" alt="Pejuang Tradisi" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
+            <img src="/images/app/tradisi/warrior-1.JPG" alt="Prajurit Tradisi" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
             <img src="/images/app/tradisi/sesaji-closeup-2.jpg" alt="Sesaji Closeup" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
-            <img src="/images/app/tradisi/dancers-1.jpg" alt="Penari Tradisi" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
+            <img src="/images/app/tradisi/dancers-1.JPG" alt="Penari Tradisi" className="w-full rounded-2xl object-cover shadow-2xl max-h-[220px]" />
           </div>
         </div>
       </section>
@@ -143,7 +143,7 @@ export default function TradisiPage() {
 
       {/* Cinematic Breaker: Karawitan Photo */}
       <section className="w-full py-0">
-        <img src="/images/app/tradisi/karawitan-1.jpg" alt="Karawitan Tradisi" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
+        <img src="/images/app/tradisi/karawitan-1.JPG" alt="Karawitan Tradisi" className="w-full max-h-[480px] object-cover object-center rounded-none shadow-lg" />
       </section>
 
       {/* Module 5: A Living Tradition - Community in Action (No Gallery) */}
@@ -161,7 +161,6 @@ export default function TradisiPage() {
           </div>
         </div>
       </section>
-npm 
       {/* Module 5b: Booklet PDF Viewer & Download (Fixed Path) */}
       <section className="max-w-4xl mx-auto px-4 py-12 flex flex-col items-center">
         <h2 className="text-2xl font-bold text-[#4A6C6F] mb-4 text-center">Baca atau Unduh Booklet Sejarah & Makna Larung Sesaji</h2>
