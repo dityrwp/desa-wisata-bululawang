@@ -28,9 +28,8 @@ const umkmData = [
     description: 'Menyediakan dua produk sehat tanpa bahan pengawet. Sale Pisang legit diolah dari pisang matang pilihan, sementara Sari Kedelai gurih dibuat dari kedelai berkualitas dengan proses higienis, cocok untuk konsumsi harian keluarga.',
     info: [
       'Pemilik:  Ibu Yati',
-      'Harga: ',
-      'Susu Kedelai: 5.000/botol',
-      'Sale Pisang: 55.000/kg',
+      'Harga Susu Kedelai: 5.000/botol',
+      'Harga Sale Pisang: 55.000/kg',
     ],
     contact: [
       {
