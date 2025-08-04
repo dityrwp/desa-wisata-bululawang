@@ -6,9 +6,9 @@ const umkmData = [
     slug: 'keripik-pisang-kembar',
     name: 'Keripik Pisang Kembar',
     image: '/images/app/umkm/kripik-pisang-kembar-1.jpg',
-    description: 'Keripik pisang renyah varian madu & original. Placeholder deskripsi.',
+    description: 'Diproduksi secara higienis di rumah produksi keluarga, keripik ini mengutamakan cita rasa asli. Dikemas praktis menggunakan ziplock dalam berbagai ukuran, produk ini telah memiliki sertifikasi Halal dan izin PIRT yang menjamin kualitas dan keamanannya.',
     info: [
-      'Pemilik:  Pak Sutiyono',
+      'Pemilik:  Bapak Sutiyono',
       'Varian: Madu, Original',
       'Harga: 30.000/500 gram',
     ],
@@ -25,9 +25,10 @@ const umkmData = [
     slug: 'kita',
     name: 'KITA',
     image: '/images/app/umkm/susu-kedelai-kita-1.jpg',
-    description: 'Susu kedelai dan sale pisang. Placeholder deskripsi.',
+    description: 'Menyediakan dua produk sehat tanpa bahan pengawet. Sale Pisang legit diolah dari pisang matang pilihan, sementara Sari Kedelai gurih dibuat dari kedelai berkualitas dengan proses higienis, cocok untuk konsumsi harian keluarga.',
     info: [
       'Pemilik:  Ibu Yati',
+      'Harga: ',
       'Susu Kedelai: 5.000/botol',
       'Sale Pisang: 55.000/kg',
     ],
@@ -38,15 +39,15 @@ const umkmData = [
         href: 'https://wa.me/6285730934390',
       },
     ],
-    mapsEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.5327214158556!2d112.07763221026757!3d-8.284483696280299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78c539e6ba72fd%3A0xbc5a9064ddae6b1a!2sSale%20pisang%20dan%20sari%20dele%20Bu%20Yati!5e1!3m2!1sen!2sid!4v1754264170809!5m2!1sen!2sid',
+    mapsEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.5327214158556!2d112.07763221026757!3d-8.284483696280299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78c539e6ba72fd%3A0xbc5a9064ddae6b1a!2sSale%20pisang%20dan%20sari%20dele%20Ibu%20Yati!5e1!3m2!1sen!2sid!4v1754264170809!5m2!1sen!2sid',
   },
   {
     slug: 'keripik-ubi-aulya',
     name: 'Keripik Ubi Ungu Aulya',
     image: '/images/app/umkm/kripik-ubi-aulya-1.jpg',
-    description: 'Keripik ubi ungu. Placeholder deskripsi.',
+    description: 'Camilan sehat dari ubi ungu pilihan yang diolah secara tradisional tanpa pengawet. Dengan rasa manis alami dan kaya akan antioksidan, keripik renyah ini menjadi pilihan tepat untuk oleh-oleh yang lezat sekaligus menyehatkan.',
     info: [
-      'Pemilik:  Mba Uut',
+      'Pemilik:  Ibu Uut',
       'Harga: 60.000/kg',
     ],
     contact: [
@@ -62,9 +63,9 @@ const umkmData = [
     slug: 'camilan-sukun-sari',
     name: 'Camilan Sukun SARI',
     image: '/images/app/umkm/sukun-sari.jpg',
-    description: 'Camilan sukun. Placeholder deskripsi.',
+    description: 'Camilan gurih yang diolah secara tradisional dari buah sukun pilihan. Diiris tipis dan digoreng renyah tanpa bahan pengawet, keripik ini menawarkan cita rasa autentik yang cocok sebagai teman santai atau oleh-oleh khas desa.',
     info: [
-      'Pemilik:  Bu Ririn',
+      'Pemilik:  Ibu Ririn',
       'Harga: 60.000/kg',
     ],
     contact: [
@@ -80,9 +81,9 @@ const umkmData = [
     slug: 'rengginang',
     name: 'Rengginang',
     image: '/images/app/umkm/rengginang-1.jpg',
-    description: 'Rengginang gurih. Placeholder deskripsi.',
+    description: 'Camilan tradisional renyah yang dibuat dari nasi ketan pilihan dengan resep warisan keluarga. Dibumbui secara alami dan diolah tanpa pengawet, rengginang ini menawarkan rasa gurih autentik yang selalu dirindukan sebagai suguhan.',
     info: [
-      'Pemilik:  Bu Kartini',
+      'Pemilik:  Ibu Kartini',
       'Harga: 28.000/kg',
     ],
     contact: [
@@ -96,11 +97,11 @@ const umkmData = [
   },
   {
     slug: 'jamu-tradisional',
-    name: 'Jamu Tradisional Bu Srinatin',
+    name: 'Jamu Tradisional Ibu Srinatin',
     image: '/images/app/umkm/jamu-tradisional.jpg',
-    description: 'Jamu tradisional. Placeholder deskripsi.',
+    description: 'Minuman herbal sehat yang diracik dari resep turun-temurun menggunakan rempah alami pilihan seperti kunyit dan jahe. Diproses higienis tanpa pengawet, tersedia dalam varian kunyit asam, beras kencur, dan lainnya untuk menjaga daya tahan tubuh.',
     info: [
-      'Pemilik:  Bu Srinatin',
+      'Pemilik:  Ibu Srinatin',
       'Harga: 5.000/botol',
     ],
     contact: [
@@ -110,7 +111,7 @@ const umkmData = [
         href: 'https://wa.me/62881036245802',
       },
     ],
-    mapsEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.514097847436!2d112.07642499999999!3d-8.2833066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78c5004817cbf9%3A0xf666da5d0705bb24!2sJamu%20Tradisional%20%E2%80%9CBu%20Srinatin%E2%80%9D!5e1!3m2!1sen!2sid!4v1754264635847!5m2!1sen!2sid',
+    mapsEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.514097847436!2d112.07642499999999!3d-8.2833066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78c5004817cbf9%3A0xf666da5d0705bb24!2sJamu%20Tradisional%20%E2%80%9CIbu%20Srinatin%E2%80%9D!5e1!3m2!1sen!2sid!4v1754264635847!5m2!1sen!2sid',
   },
 ];
 
@@ -183,11 +184,14 @@ export default function UmkmPage() {
                   {item.description}
                 </p>
                 <ul className="mb-2 text-base md:text-lg list-none pl-0 text-center">
-                  {item.info.map((info, i) => (
-                    <li key={i} className="mb-1">
-                      {info}
-                    </li>
-                  ))}
+                  {item.info.map((info, i) => {
+                    const isHarga = /Harga/i.test(info);
+                    return (
+                      <li key={i} className={`mb-1 ${isHarga ? 'font-bold text-[#E76F51] text-lg md:text-xl bg-[#FFF3E0] px-2 py-1 rounded-lg inline-block shadow-sm' : ''}`}>
+                        {info}
+                      </li>
+                    );
+                  })}
                 </ul>
                 {/* Action Footer */}
                 <div className="flex flex-col gap-2 mb-2 items-center">
