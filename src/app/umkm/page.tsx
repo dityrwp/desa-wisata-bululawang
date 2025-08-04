@@ -8,7 +8,7 @@ const umkmData = [
     image: '/images/app/umkm/kripik-pisang-kembar-1.jpg',
     description: 'Keripik pisang renyah varian madu & original. Placeholder deskripsi.',
     info: [
-      'Nama: Pak Sutiyono',
+      'Pemilik:  Pak Sutiyono',
       'Varian: Madu, Original',
       'Harga: 30.000/500 gram',
     ],
@@ -27,7 +27,7 @@ const umkmData = [
     image: '/images/app/umkm/susu-kedelai-kita-1.jpg',
     description: 'Susu kedelai dan sale pisang. Placeholder deskripsi.',
     info: [
-      'Nama: Ibu Yati',
+      'Pemilik:  Ibu Yati',
       'Susu Kedelai: 5.000/botol',
       'Sale Pisang: 55.000/kg',
     ],
@@ -46,7 +46,7 @@ const umkmData = [
     image: '/images/app/umkm/kripik-ubi-aulya-1.jpg',
     description: 'Keripik ubi ungu. Placeholder deskripsi.',
     info: [
-      'Nama: Mba Uut',
+      'Pemilik:  Mba Uut',
       'Harga: 60.000/kg',
     ],
     contact: [
@@ -64,7 +64,7 @@ const umkmData = [
     image: '/images/app/umkm/sukun-sari.jpg',
     description: 'Camilan sukun. Placeholder deskripsi.',
     info: [
-      'Nama: Bu Ririn',
+      'Pemilik:  Bu Ririn',
       'Harga: 60.000/kg',
     ],
     contact: [
@@ -82,7 +82,7 @@ const umkmData = [
     image: '/images/app/umkm/rengginang-1.jpg',
     description: 'Rengginang gurih. Placeholder deskripsi.',
     info: [
-      'Nama: Bu Kartini',
+      'Pemilik:  Bu Kartini',
       'Harga: 28.000/kg',
     ],
     contact: [
@@ -100,7 +100,7 @@ const umkmData = [
     image: '/images/app/umkm/jamu-tradisional.jpg',
     description: 'Jamu tradisional. Placeholder deskripsi.',
     info: [
-      'Nama: Bu Srinatin',
+      'Pemilik:  Bu Srinatin',
       'Harga: 5.000/botol',
     ],
     contact: [

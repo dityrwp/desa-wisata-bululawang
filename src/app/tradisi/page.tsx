@@ -8,15 +8,8 @@ export default function TradisiPage() {
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Larung Sesaji</h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center">Setiap Tahun, Laut Memanggil Kami Pulang</h2>
         <p className="max-w-2xl text-lg md:text-xl mb-10 text-center">
-          Di Desa Bululawang, ada satu hari di mana daratan dan lautan bersatu dalam doa. Hari di mana kami menumpahkan rasa syukur ke dalam ombak, menghanyutkan harapan, dan merayakan harmoni antara manusia, alam, dan Sang Pencipta. Inilah Larung Sesaji, sebuah tradisi yang menjadi detak jantung komunitas kami. Saksikanlah kisahnya.
+          Di Desa Bululawang, ada satu hari di mana daratan dan lautan bersatu dalam doa. Hari di mana kami menumpahkan rasa syukur ke dalam ombak, menghanyutkan harapan, dan merayakan harmoni antara manusia, alam, dan Sang Pencipta. Inilah Larung Sesaji, sebuah tradisi yang menjadi detak jantung komunitas kami.
         </p>
-        {/* Video Placeholder */}
-        <div className="w-full max-w-3xl aspect-video bg-gray-300 rounded-xl flex items-center justify-center mb-4 shadow-lg relative">
-          <span className="text-2xl text-gray-600">[Video Placeholder]</span>
-          <button className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-80 rounded-full p-4 shadow-lg">
-            <svg width="40" height="40" fill="none" viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="#4A6C6F"/><polygon points="16,13 28,20 16,27" fill="#fff"/></svg>
-          </button>
-        </div>
       </section>
 
       {/* Cinematic Breaker: Dancer Photo */}
